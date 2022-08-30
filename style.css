@@ -70,10 +70,3 @@ textarea {
   transition: all 0.3s ease-in-out;
 }
 
-#clock {
-  width: 300px;
-  height: 100px;
-  background-color: #000000;
-  border-radius: 5px;
-
-}
