@@ -23,3 +23,12 @@ const saveToStorage = ()=> {
 button.addEventListener('click, saveToStorage')
 
 
+var elements = $("time-block");
+var d = new Date();
+var h = d.getHours();
+for (i=0; i < elements.length; i++){
+    var t = parseInt(elements[i].getAttribute(data-hour));
+    if (h < t) {
+        
+    }
+}
