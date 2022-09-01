@@ -1,3 +1,4 @@
+// moment.js clock and date function
 const clock = document.getElementById("clock");
 setInterval(() => {
     const now = moment();
@@ -5,7 +6,7 @@ setInterval(() => {
     clock.textContent = readable;
 
 }, 1000);
-
+// save button variable for local storage, saves text inputted into scheduler
 var saveBtn = document.querySelectorAll(".saveBtn");
 saveBtn.forEach(function(node){
     node.addEventListener("click", function(){
@@ -25,7 +26,7 @@ $("#hour-7 .description").val(localStorage.getItem("hour-7"));
 $("#hour-8 .description").val(localStorage.getItem("hour-8"));
 $("#hour-9 .description").val(localStorage.getItem("hour-9"));
 $("#hour-10 .description").val(localStorage.getItem("hour-10"));
-
+// colour blocking time of day variable, changes colour for past future and present times.
 var elements = $(".time-block");
 var d = new Date();
 var h = d.getHours();
