@@ -6,21 +6,16 @@ setInterval(() => {
 
 }, 1000);
 
-// const schedule = document.querySelector(".storage");
-// const  saveBtn = document.querySelector(".button")
-// const timeBlock = document.querySelector(".timeBlock")
+var saveBtn = document.querySelectorAll(".saveBtn");
+saveBtn.forEach(function(node){
+    node.addEventListener("click", function(){
+        var description = $(this).siblings(".description").val();
+        var time = $(this).parent().attr("id");
+        localStorage.getItem(time, description);
+    })
+});
 
-// storageInput.addEventListener('input' , letter => {
-//     text.textContent = letter.target.value
-// } )
-
-
-
-// const saveToStorage = ()=> {
-//     localStorage.setItem('textinput', timeBlock.textContent)
-// }
-
-// button.addEventListener('click, saveToStorage')
+$("#hour1 .description").val(localStorage.getItem("hour1"));
 
 
 var elements = $(".time-block");
