@@ -29,6 +29,22 @@ var h = d.getHours();
 for (i=0; i < elements.length; i++){
     var t = parseInt(elements[i].getAttribute(data-hour));
     if (h < t) {
-        
-    }
-}
+        elements[i].classList.add("future");
+        elements[i].classList.remove("past");
+        elements[i].classList.remove("present");
+     } else if (h>t) {
+            elements[i].classList.add("past");
+            elements[i].classList.remove("future");
+            elements[i].classList.remove("present");
+      } else if (h===t){
+        elements[i].classList.add("present");
+        elements[i].classList.remove("future");
+        elements[i].classList.remove("past");
+      }else if (h>16&&h<9) {
+            elements[i].classList.add("future");
+            elements[i].classList.remove("past");
+            elements[i].classList.remove("present");
+        }
+      }
+          
+    
