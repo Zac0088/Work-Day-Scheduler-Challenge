@@ -16,6 +16,6 @@ For this weeks challenge i was asked to create a work day scheduler, that alows 
 # Live URL
 
 # Screenshot
-![screenshot](/assets/images/screencapture-file-C-Users-zac-c-Desktop-Work-Day-Scheduler-Challenge-assets-index-html-2022-09-01-23_06_09.png)
+![screenshot](/assets/styles/css/images/screencapture-file-C-Users-zac-c-Desktop-Work-Day-Scheduler-Challenge-index-html-2022-11-21-16_18_22.png)
 # Contact Page
 [Zachary Smart on Github](https://github.com/Zac0088)
