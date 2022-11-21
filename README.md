@@ -14,7 +14,7 @@ For this weeks challenge i was asked to create a work day scheduler, that alows 
 * when I refresh the page the saved events persist
 
 # Live URL
-
+https://zac0088.github.io/Work-Day-Scheduler-Challenge/
 # Screenshot
 ![screenshot](/assets/styles/css/images/screencapture-file-C-Users-zac-c-Desktop-Work-Day-Scheduler-Challenge-index-html-2022-11-21-16_18_22.png)
 # Contact Page
